@@ -24,3 +24,7 @@ Enter the bootloader in 2 ways:
 
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix
 * **Physical reset button**: Briefly press the button on the PCB
+
+qmk compile -c -kb geigeigeist/klor -km default -e CONVERT_TO=promicro_rp2040
+
+qmk flash -kb geigeigeist/klor -km default -e CONVERT_TO=promicro_rp2040
