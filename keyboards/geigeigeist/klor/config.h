@@ -15,3 +15,8 @@
 #    define OLED_DISPLAY_128X64
 #    define OLED_FONT_H "keyboards/geigeigeist/klor/glcdfont.c"
 #endif
+
+#define BOOTMAGIC_ROW 1
+#define BOOTMAGIC_COLUMN 0
+#define BOOTMAGIC_ROW_RIGHT 5
+#define BOOTMAGIC_COLUMN_RIGHT 0

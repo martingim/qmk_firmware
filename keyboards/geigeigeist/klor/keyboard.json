@@ -38,7 +38,16 @@
             "band_val": true,
             "breathing": true,
             "gradient_left_right": true,
-            "gradient_up_down": true
+            "gradient_up_down": true,
+            "pixel_flow": true,
+            "pixel_rain": true,
+            "typing_heatmap": true,
+            "solid_reactive": true,
+            "solid_reactive_simple": true,
+            "solid_reactive_wide": true,
+            "splash": true,
+            "multisplash": true,
+            "starlight": true
         },
         "layout": [
             {"matrix": [3, 4], "x": 102, "y": 63, "flags": 1},
